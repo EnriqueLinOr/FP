@@ -13,3 +13,8 @@
 2. dos
 3. tres
 4. cuatro
+
+
+**negritas**
+_texto italica_
+***negritas italica***
