@@ -1,1 +1,26 @@
+// ConsoleApplication3.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
+//
 
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int i = 0;
+	while (i <= 9)
+	{
+		cout << i << " , ";
+		i++;
+	}
+	int ii = 1, factorial = 1;
+	int numero;
+	cout << "Numero: ";
+	cin >> numero;
+	while (ii <= numero)
+	{
+		factorial = factorial * ii;
+		ii++;
+	}
+	cout << factorial << endl;
+
+}
